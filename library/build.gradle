@@ -1,0 +1,37 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+android {
+    compileSdkVersion rootProject.ext.COMPILE_SDK_VERSION
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.MIN_SDK_VERSION
+        targetSdkVersion rootProject.ext.TARGET_SDK_VERSION
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation "com.android.support:support-annotations:${rootProject.ext.SUPPORT_LIBS_VERSION}"
+}
+
+publish {
+    userOrg = 'h6ah4i'
+    groupId = 'com.h6ah4i.android'
+    artifactId = 'scrollableviewpagercontent'
+    publishVersion = rootProject.ext.LIBRARY_CORE_VERSION
+    desc = 'The core module of ScrollableViewPagerContent library'
+    website = 'https://github.com/h6ah4i/android-scrollableviewpagercontent'
+}

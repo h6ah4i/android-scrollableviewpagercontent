@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ScrollableViewPagerContent.iml" filepath="$PROJECT_DIR$/ScrollableViewPagerContent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/scrollableviewpagercontent.iml" filepath="$PROJECT_DIR$/library/scrollableviewpagercontent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-listview/library-listview.iml" filepath="$PROJECT_DIR$/library-listview/library-listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-nestedscrollview/library-nestedscrollview.iml" filepath="$PROJECT_DIR$/library-nestedscrollview/library-nestedscrollview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-recyclerview/library-recyclerview.iml" filepath="$PROJECT_DIR$/library-recyclerview/library-recyclerview.iml" />
+    </modules>
+  </component>
+</project>
