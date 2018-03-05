@@ -30,7 +30,7 @@ dependencies {
 
 publish {
     userOrg = 'h6ah4i'
-    groupId = 'com.h6ah4i.android'
+    groupId = 'com.h6ah4i.android.scrollableviewpagercontent'
     artifactId = 'scrollableviewpagercontent-listview'
     publishVersion = rootProject.ext.LIBRARY_LISTVIEW_VERSION
     desc = 'ListView binding of ScrollableViewPagerContent library'
