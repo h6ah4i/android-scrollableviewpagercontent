@@ -19,16 +19,16 @@ Usage
 
 ```gradle
 // the core module
-implementation 'com.h6ah4i.android.scrollableviewpagercontent:0.1.0'
+implementation 'com.h6ah4i.android.scrollableviewpagercontent:scrollableviewpagercontent:0.1.1'
 
 // if you are using RecyclerView, add this too
-implementation 'com.h6ah4i.android.scrollableviewpagercontent-recyclerview:0.1.0'
+implementation 'com.h6ah4i.android.scrollableviewpagercontent:scrollableviewpagercontent-recyclerview:0.1.1'
 
 // if you are using NestedScrollView, add this too
-implementation 'com.h6ah4i.android.scrollableviewpagercontent-nestedscrollview:0.1.0'
+implementation 'com.h6ah4i.android.scrollableviewpagercontent:scrollableviewpagercontent-nestedscrollview:0.1.1'
 
 // if you are using ListView, add this too
-implementation 'com.h6ah4i.android.scrollableviewpagercontent-listview:0.1.0'
+implementation 'com.h6ah4i.android.scrollableviewpagercontent:scrollableviewpagercontent-listview:0.1.1'
 
 ```
 
