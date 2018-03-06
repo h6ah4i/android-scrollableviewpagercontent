@@ -32,6 +32,7 @@ publish {
     userOrg = 'h6ah4i'
     groupId = 'com.h6ah4i.android.scrollableviewpagercontent'
     artifactId = 'scrollableviewpagercontent-nestedscrollview'
+    uploadName = 'com.h6ah4i.android.scrollableviewpagercontent:scrollableviewpagercontent-nestedscrollview'
     publishVersion = rootProject.ext.LIBRARY_NESTEDSCROLLVIEW_VERSION
     desc = 'NestedScrollView binding of ScrollableViewPagerContent library'
     website = 'https://github.com/h6ah4i/android-scrollableviewpagercontent'

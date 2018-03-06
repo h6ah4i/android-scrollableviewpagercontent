@@ -32,6 +32,7 @@ publish {
     userOrg = 'h6ah4i'
     groupId = 'com.h6ah4i.android.scrollableviewpagercontent'
     artifactId = 'scrollableviewpagercontent-listview'
+    uploadName = 'com.h6ah4i.android.scrollableviewpagercontent:scrollableviewpagercontent-listview'
     publishVersion = rootProject.ext.LIBRARY_LISTVIEW_VERSION
     desc = 'ListView binding of ScrollableViewPagerContent library'
     website = 'https://github.com/h6ah4i/android-scrollableviewpagercontent'
