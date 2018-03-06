@@ -33,6 +33,7 @@ publish {
     userOrg = 'h6ah4i'
     groupId = 'com.h6ah4i.android.scrollableviewpagercontent'
     artifactId = 'scrollableviewpagercontent-recyclerview'
+    uploadName = 'com.h6ah4i.android.scrollableviewpagercontent:scrollableviewpagercontent-recyclerview'
     publishVersion = rootProject.ext.LIBRARY_RECYCLERVIEW_VERSION
     desc = 'RecyclerView binding of ScrollableViewPagerContent library'
     website = 'https://github.com/h6ah4i/android-scrollableviewpagercontent'
