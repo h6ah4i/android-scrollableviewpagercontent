@@ -1,3 +1,7 @@
+## 0.1.2
+
+- Fix uploadName to correct multi-module library publishing
+
 ## 0.1.1
 
 - Changed package group ID
