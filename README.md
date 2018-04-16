@@ -5,7 +5,7 @@ ScrollableViewPagerContent
 
 A tiny library which improves UX with ViewPager. This library prioritizes ViewPager's horizontal swipe action over vertical scroll of inner pager contents.
 
-In the standard behavior of Android's ViewPager, paging swipe action of ViewPager has less priority than inner views' vertical scroll. When inner conntent is in scrolling state, horizontal swipe is completely ignored. However the behavior is considered bad for UX, and that's why I created this library.
+In the standard behavior of Android's ViewPager, paging swipe action of ViewPager has less priority than inner views' vertical scroll. When inner content is in scrolling state, horizontal swipe is completely ignored. However the behavior is considered bad for UX, and that's why I created this library.
 
 Also, I noticed that some major apps implememted the same behavior. (*NOTE: These are not using this library.*)
 
