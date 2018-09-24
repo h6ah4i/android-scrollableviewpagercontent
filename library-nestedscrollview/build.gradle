@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+apply plugin: 'guru.stefma.bintrayrelease'
 
 android {
     compileSdkVersion rootProject.ext.COMPILE_SDK_VERSION
@@ -28,12 +28,12 @@ dependencies {
     implementation "com.android.support:appcompat-v7:${rootProject.ext.SUPPORT_LIBS_VERSION}"
 }
 
+group = 'com.h6ah4i.android.scrollableviewpagercontent'
+version = rootProject.ext.LIBRARY_NESTEDSCROLLVIEW_VERSION
 publish {
     userOrg = 'h6ah4i'
-    groupId = 'com.h6ah4i.android.scrollableviewpagercontent'
     artifactId = 'scrollableviewpagercontent-nestedscrollview'
     uploadName = 'com.h6ah4i.android.scrollableviewpagercontent:scrollableviewpagercontent-nestedscrollview'
-    publishVersion = rootProject.ext.LIBRARY_NESTEDSCROLLVIEW_VERSION
     desc = 'NestedScrollView binding of ScrollableViewPagerContent library'
     website = 'https://github.com/h6ah4i/android-scrollableviewpagercontent'
 }

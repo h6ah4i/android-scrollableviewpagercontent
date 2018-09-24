@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+apply plugin: 'guru.stefma.bintrayrelease'
 
 android {
     compileSdkVersion rootProject.ext.COMPILE_SDK_VERSION
@@ -28,12 +28,12 @@ dependencies {
     implementation "com.android.support:appcompat-v7:${rootProject.ext.SUPPORT_LIBS_VERSION}"
 }
 
+group = 'com.h6ah4i.android.scrollableviewpagercontent'
+version = rootProject.ext.LIBRARY_LISTVIEW_VERSION
 publish {
     userOrg = 'h6ah4i'
-    groupId = 'com.h6ah4i.android.scrollableviewpagercontent'
     artifactId = 'scrollableviewpagercontent-listview'
     uploadName = 'com.h6ah4i.android.scrollableviewpagercontent:scrollableviewpagercontent-listview'
-    publishVersion = rootProject.ext.LIBRARY_LISTVIEW_VERSION
     desc = 'ListView binding of ScrollableViewPagerContent library'
     website = 'https://github.com/h6ah4i/android-scrollableviewpagercontent'
 }
