@@ -7,7 +7,7 @@ A tiny library which improves UX with ViewPager. This library prioritizes ViewPa
 
 In the standard behavior of Android's ViewPager, paging swipe action of ViewPager has less priority than inner views' vertical scroll. When inner content is in scrolling state, horizontal swipe is completely ignored. However the behavior is considered bad for UX, and that's why I created this library.
 
-Also, I noticed that some major apps implememted the same behavior. (*NOTE: These are not using this library.*)
+Also, I noticed that some major apps implemented the same behavior. (*NOTE: These are not using this library.*)
 
 - Play Store app
 - Official Twitter client
@@ -23,16 +23,16 @@ Usage
 
 ```gradle
 // the core module
-implementation 'com.h6ah4i.android.scrollableviewpagercontent:scrollableviewpagercontent:0.1.2'
+implementation 'com.h6ah4i.android.scrollableviewpagercontent:scrollableviewpagercontent:1.0.0'
 
 // if you are using RecyclerView, add this too
-implementation 'com.h6ah4i.android.scrollableviewpagercontent:scrollableviewpagercontent-recyclerview:0.1.2'
+implementation 'com.h6ah4i.android.scrollableviewpagercontent:scrollableviewpagercontent-recyclerview:1.0.0'
 
 // if you are using NestedScrollView, add this too
-implementation 'com.h6ah4i.android.scrollableviewpagercontent:scrollableviewpagercontent-nestedscrollview:0.1.2'
+implementation 'com.h6ah4i.android.scrollableviewpagercontent:scrollableviewpagercontent-nestedscrollview:1.0.0'
 
 // if you are using ListView, add this too
-implementation 'com.h6ah4i.android.scrollableviewpagercontent:scrollableviewpagercontent-listview:0.1.2'
+implementation 'com.h6ah4i.android.scrollableviewpagercontent:scrollableviewpagercontent-listview:1.0.0'
 
 ```
 
