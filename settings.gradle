@@ -1,1 +1,6 @@
 include ':app', ':library', ':library-recyclerview', ':library-nestedscrollview', ':library-listview'
+
+project(":library").name = "scrollableviewpagercontent"
+project(":library-recyclerview").name = "scrollableviewpagercontent-recyclerview"
+project(":library-nestedscrollview").name = "scrollableviewpagercontent-nestedscrollview"
+project(":library-listview").name = "scrollableviewpagercontent-listview"

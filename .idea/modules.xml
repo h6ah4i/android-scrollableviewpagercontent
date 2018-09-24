@@ -4,10 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/android-scrollableviewpagercontent.iml" filepath="$PROJECT_DIR$/android-scrollableviewpagercontent.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library-listview/library-listview.iml" filepath="$PROJECT_DIR$/library-listview/library-listview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library-nestedscrollview/library-nestedscrollview.iml" filepath="$PROJECT_DIR$/library-nestedscrollview/library-nestedscrollview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library-recyclerview/library-recyclerview.iml" filepath="$PROJECT_DIR$/library-recyclerview/library-recyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/scrollableviewpagercontent.iml" filepath="$PROJECT_DIR$/library/scrollableviewpagercontent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-listview/scrollableviewpagercontent-listview.iml" filepath="$PROJECT_DIR$/library-listview/scrollableviewpagercontent-listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-nestedscrollview/scrollableviewpagercontent-nestedscrollview.iml" filepath="$PROJECT_DIR$/library-nestedscrollview/scrollableviewpagercontent-nestedscrollview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-recyclerview/scrollableviewpagercontent-recyclerview.iml" filepath="$PROJECT_DIR$/library-recyclerview/scrollableviewpagercontent-recyclerview.iml" />
     </modules>
   </component>
 </project>

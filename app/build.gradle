@@ -24,10 +24,10 @@ dependencies {
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha2'
-    implementation project(':library')
-    implementation project(':library-recyclerview')
-    implementation project(':library-listview')
-    implementation project(':library-nestedscrollview')
+    implementation project(':scrollableviewpagercontent')
+    implementation project(':scrollableviewpagercontent-recyclerview')
+    implementation project(':scrollableviewpagercontent-listview')
+    implementation project(':scrollableviewpagercontent-nestedscrollview')
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.0-alpha4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0-alpha4'
