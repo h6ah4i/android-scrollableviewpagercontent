@@ -16,10 +16,23 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListViewContentFragment extends Fragment {
+    public static ListViewContentFragment newInstance(boolean enabled) {
+        Bundle args = new Bundle();
+        args.putBoolean("SVPC_ENABLED", enabled);
+
+        ListViewContentFragment fragment = new ListViewContentFragment();
+        fragment.setArguments(args);
+        return fragment;
+    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.page_fragment_list_view, container, false);
+        int resId = getArguments().getBoolean("SVPC_ENABLED")
+                ? R.layout.page_fragment_list_view
+                : R.layout.page_fragment_normal_list_view;
+
+        return inflater.inflate(resId, container, false);
     }
 
     @Override

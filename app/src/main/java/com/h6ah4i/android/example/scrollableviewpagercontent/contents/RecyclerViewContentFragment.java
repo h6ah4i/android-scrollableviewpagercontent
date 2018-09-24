@@ -15,6 +15,15 @@ import com.h6ah4i.android.example.scrollableviewpagercontent.R;
 import com.h6ah4i.android.scrollableviewpagercontent.recyclerview.ViewPagerContentRecyclerViewTouchEventInterceptor;
 
 public class RecyclerViewContentFragment extends Fragment {
+    public static RecyclerViewContentFragment newInstance(boolean enabled) {
+        Bundle args = new Bundle();
+        args.putBoolean("SVPC_ENABLED", enabled);
+
+        RecyclerViewContentFragment fragment = new RecyclerViewContentFragment();
+        fragment.setArguments(args);
+        return fragment;
+    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -26,7 +35,9 @@ public class RecyclerViewContentFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         RecyclerView recyclerView = view.findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        recyclerView.addOnItemTouchListener(new ViewPagerContentRecyclerViewTouchEventInterceptor());
+        if (getArguments().getBoolean("SVPC_ENABLED")) {
+            recyclerView.addOnItemTouchListener(new ViewPagerContentRecyclerViewTouchEventInterceptor());
+        }
         recyclerView.setAdapter(new MyRecyclerViewAdapter());
     }
 

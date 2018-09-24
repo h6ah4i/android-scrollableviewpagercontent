@@ -14,6 +14,8 @@ Also, I noticed that some major apps implememted the same behavior. (*NOTE: Thes
 - Mercari
 
 
+![Demo app](./images/capture.gif)
+
 Usage
 ---
 
