@@ -1,7 +1,7 @@
 package com.h6ah4i.android.scrollableviewpagercontent;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;

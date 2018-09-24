@@ -10,7 +10,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
     }
 
@@ -25,8 +25,8 @@ android {
 
 dependencies {
     implementation project(':library')
-    implementation "com.android.support:appcompat-v7:${rootProject.ext.SUPPORT_LIBS_VERSION}"
-    implementation "com.android.support:recyclerview-v7:${rootProject.ext.SUPPORT_LIBS_VERSION}"
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
 }
 
 version = rootProject.ext.LIBRARY_RECYCLERVIEW_VERSION

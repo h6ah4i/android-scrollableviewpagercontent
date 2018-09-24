@@ -10,7 +10,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
     }
 
@@ -24,7 +24,7 @@ android {
 }
 
 dependencies {
-    implementation "com.android.support:support-annotations:${rootProject.ext.SUPPORT_LIBS_VERSION}"
+    implementation 'androidx.annotation:annotation:1.0.0'
 }
 
 group = 'com.h6ah4i.android.scrollableviewpagercontent'

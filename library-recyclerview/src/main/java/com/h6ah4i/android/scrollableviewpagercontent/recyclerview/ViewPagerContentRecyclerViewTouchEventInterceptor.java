@@ -1,6 +1,6 @@
 package com.h6ah4i.android.scrollableviewpagercontent.recyclerview;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.MotionEvent;
 
 import com.h6ah4i.android.scrollableviewpagercontent.ScrollableViewPagerContentTouchEventDelegator;
