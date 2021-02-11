@@ -1,7 +1,8 @@
 ScrollableViewPagerContent
 ===============
 
-[ ![Download](https://api.bintray.com/packages/h6ah4i/maven/com.h6ah4i.android.scrollableviewpagercontent%3Ascrollableviewpagercontent-recyclerview/images/download.svg) ](https://bintray.com/h6ah4i/maven/com.h6ah4i.android.scrollableviewpagercontent%3Ascrollableviewpagercontent-recyclerview/_latestVersion)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.h6ah4i.android.scrollableviewpagercontent/scrollableviewpagercontent/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.h6ah4i.android.scrollableviewpagercontent/scrollableviewpagercontent)
+
 
 A tiny library which improves UX with ViewPager. This library prioritizes ViewPager's horizontal swipe action over vertical scroll of inner pager contents.
 
